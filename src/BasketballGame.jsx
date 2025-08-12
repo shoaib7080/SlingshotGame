@@ -34,9 +34,9 @@ const BasketballGame = () => {
     const basketImage = new Image();
     const backgroundImage = new Image();
 
-    ballImage.src = "/src/assets/basketball.svg";
-    basketImage.src = "/src/assets/basket.svg";
-    backgroundImage.src = "/src/assets/crowd.jpg";
+    ballImage.src = "/assets/basketball.svg";
+    basketImage.src = "/assets/basket.svg";
+    backgroundImage.src = "/assets/crowd.jpg";
 
     let imagesLoaded = 0;
     const totalImages = 3;
